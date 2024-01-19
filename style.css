@@ -41,6 +41,10 @@ article {
     padding-bottom: 2rem;    
 }
 
+img {
+    width: 100%;
+}
+
 
 .headerNav {
     list-style-type: none;
