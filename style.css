@@ -1,0 +1,37 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+
+.google-fonts {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.content{
+    justify-content: center;
+
+}
+
+#satre {
+    font-size: 50px;
+    color: red;
+    margin: 10, 0, 0, 10;
+}
+
+#Better-Dressed {
+    font-size: 40px;
+
+}
+
+#menus {
+    font-size: 35px;
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    
+}
+
+.date {
+    color: lightgray;
+    
+}
