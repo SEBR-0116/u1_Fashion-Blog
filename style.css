@@ -1,0 +1,104 @@
+
+.body{
+    border-style: outset;
+    border-top: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: lightgrey;
+    border-width: 5px;
+    min-height: 100%;
+    max-width: 1000px;
+    font-family: sans-serif ;
+    margin :auto;
+}
+img{
+    max-width: 100%;
+}
+header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+main{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.title{
+ color: tomato;
+}
+
+.topNav{
+  display:flex;
+    justify-content:space-evenly;
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 2rem; 
+    font-family:Cambria;
+    
+
+    
+}
+.linknav{
+    text-decoration: none;
+    color: lightgrey;
+    border-bottom:1px solid lightgray; 
+    font-family:Cambria;
+    
+}
+.bottNav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex: space-between ;
+    text-decoration: none; 
+    margin-bottom: 4rem;
+    font-style: bold;
+    font-family:Cambria;
+}
+.linkbnav{
+    text-decoration:none;
+    color:tomato;
+    
+}
+p{
+    color:dimgrey;
+    font-weight: lighter;
+    font-family:Cambria'
+}
+p::first-letter {
+    font-size: 4rem;
+    font-weight:lighter;
+    color: lightgray;
+  }
+.copyR{
+    color: lightgray;
+}
+
+h2{
+    font-size: 2rem;
+    color: lightgray;
+    font-weight:lighter;
+   
+}
+h4 {
+    color: red;
+   text-align:right; 
+   font-weight: bold;
+   
+
+}
+h1{
+    font-weight: lighter;
+   
+
+}
