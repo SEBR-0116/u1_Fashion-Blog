@@ -1,0 +1,89 @@
+html {
+    border-left: 5px lightgray;
+}
+
+body {
+    min-height: 100vh;
+    padding: 0;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    color: tomato;
+}
+.articleTitle {
+    font-size: 200%;
+    font-weight:normal;
+}
+.dateText {
+    color: lightgray;
+    font-size: 200%;
+    font-weight:normal;
+}
+.footerText {
+    color: lightgray;
+}
+
+header {
+    padding: 1rem 2rem;
+}
+main {
+    padding: 1rem 2rem;
+}
+footer {
+    padding: 1rem 2rem;
+}
+article {
+    margin-bottom: 4rem;
+    border: 100px lightgray;
+    padding-bottom: 2rem;    
+}
+
+img {
+    width: 100%;
+}
+
+
+.headerNav {
+    list-style-type: none;
+    padding: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    a:link{
+        color: lightgray;
+    }
+}
+
+.footerNav {
+    list-style-type: none;
+    padding: none;
+    display: flex;
+    flex-direction: row;
+    a:link{
+        color: tomato;
+        text-decoration: none;
+    }
+}
+
+p::first-letter{
+        color: lightgray;
+        font-weight: normal;
+        font-size: 400%;
+        float: left;
+        line-height: 1;
+        padding-right: .5rem;
+}
+
+
+.Continue {
+    text-align: right;
+    font-size: 110%;
+    a:link{
+        color: tomato;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
