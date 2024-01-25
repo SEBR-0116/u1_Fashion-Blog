@@ -1,0 +1,85 @@
+html {
+ border-left: 5px solid lightgray; 
+}
+
+body{
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+
+}
+
+header, main, footer{
+  padding: 1rem 2rem;
+}
+
+h1{
+  color: tomato;
+}
+
+img{
+  width: 100%;
+}
+
+.nav{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav a{
+  color: lightgray;
+}
+
+
+/* Articles Section */
+
+article{
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+.title{
+  font-size: 2em;
+}
+
+.btn-div{
+  display: flex;
+  justify-content: flex-end;;
+}
+
+.continues-btn{
+  color: tomato;
+  border: none;
+  background-color: white;
+  text-align: right;
+}
+
+.continues-btn:hover{
+  cursor: pointer;
+}
+
+article p::first-letter {
+  text-transform: capitalize;
+  color: lightgray;
+  /* float: left; */
+  font-size: 55px;
+  line-height: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* padding-right: 5px; */
+  padding-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
+
+
+/* Footer */
+.footer a{
+  color: tomato;
+}
+
+.copy{
+  color: lightgray;
+}
